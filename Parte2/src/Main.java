@@ -15,8 +15,19 @@ public class Main {
         boolean aplicaDescuento;
         double totalFinal=0;
         double descuento;
+        int inventarioBrownie=10;
 
         for (int p=0;p<pedidoProducto.length;p++){
+
+//            if(pedidoProducto[p]==4){
+//                if(inventarioBrownie<=pedidoCantidad[p]){
+//                    System.out.println("Producto agotado");
+//                }
+//            }else{
+//
+//            }
+
+
             subtotal=precios[pedidoProducto[p]]*pedidoCantidad[p];
             categoria=categorias[pedidoProducto[p]];
             switch (categoria){
